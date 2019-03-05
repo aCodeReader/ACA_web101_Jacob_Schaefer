@@ -46,7 +46,7 @@ body {
   
   .has-border {
     border-radius: 25px;
-    border: 2px solid white;
+    border: 2px solid goldenrod;
     background: none;
     padding: 20px; 
   }
