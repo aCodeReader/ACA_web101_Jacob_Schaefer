@@ -84,9 +84,20 @@ body {
     grid-column: 2/3;
     margin: 3% auto;
     font-style: italic;
-    left:  200px
+    left:  200px;
   }
+  p {position: relative;  
+  color:black;
+  grid-column: 2/3;
+  margin: 3% auto;
+  font-style: italic;
+  left:  200px;
+  background-color: goldenrod;
+  color: blue;
+  font-size: 25px;
+  
 
+}
 
   button {
     position: relative;
