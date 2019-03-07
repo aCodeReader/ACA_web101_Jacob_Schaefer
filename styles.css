@@ -86,7 +86,8 @@ body {
     font-style: italic;
     left:  200px;
   }
-  p {position: relative;  
+  p {
+  position: relative;  
   color:black;
   grid-column: 2/3;
   margin: 3% auto;
