@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+      color: white;
+      background-color: black;
+      padding: 5%;
+      font-size: 300%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      grid-area: header;
+      text-align: center;
+      background-color: black
+    ;
+  }
+  
+  main {
+      background-color: red;
+      grid-area: main;
+      padding: 5%;
+    
+  }
+  
+  nav {
+      color: black;
+      background-color: gray;
+      grid-area: nav;
+      padding: 10%;
+      text-align: center;
+  }
+  
+  
+  
+  footer {
+      background-color: forestgreen;
+      grid-area: footer;
+      text-align: center;
+      padding: 10px;
+  }
+  
+  ul {
+      list-style-type: none;
+      text-align: center;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  nav li {
+      float: left;
+      padding: 5px;
+  }
+ 
+  
+  img {
+      width: 100%;
+      margin: auto;
+  }
+  
+  nav img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  h1 {
+      border: 2px red solid;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  h2 {
+      text-align: center;
+      border: 2px black solid;
+    }
+   h3 {
+          border:2px red solid;
+          font-style: bold;
+          font-family:  Georgia, Times, 'Times New Roman', serif
+      }
+      h4{
+          border: 5px gold inset;
+          font-style: italic;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+      }
+  
+  .container {
+      display: grid;
+      grid-template-areas:
+          "header"
+          "nav"
+          "main"
+          "footer";
+          grid-gap: 1px
+  }
+  
+  @media (min-width: 500px) {
+      .container {
+          grid-template-columns: 1fr 3fr;
+          grid-template-areas:
+              "header  header"
+              "nav     nav"
+              "main   main"
+              "footer  footer";
+      }
+      nav li {
+          float: none;
+      }
+  }
+  
+  @media (min-width: 700px) {
+      .container {
+          grid-template-columns: 1fr 4fr 1fr;
+          grid-template-areas:
+              "header header  header"
+              "nav    main    main"
+              "nav    main    main"
+              "footer footer  footer"
+      }
+      nav li {
+          float: none;
+      }
+      p {
+          padding: 10%;
+      }
+  }
+  
