@@ -5,14 +5,13 @@
   }
   
   header {
-      color: white;
-      background-color: black;
+      color:white;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ee/Apples.jpg) ;
       padding: 5%;
       font-size: 300%;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       grid-area: header;
       text-align: center;
-      background-color: black
     ;
   }
   
@@ -44,7 +43,21 @@
       list-style-type: none;
       text-align: center;
   }
-  
+  .ref1 {
+      float:right; 
+      border: 2px black dashed;
+      padding: 5%;
+  }
+.ref2{
+    float:right;
+    border: 2px black dashed;
+    padding: 5%;
+}
+.ref3 {
+    float:right;
+    border: 2px black dashed;
+    padding: 5%;
+}
   a {
       text-decoration: none;
   }
@@ -65,14 +78,16 @@
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-  }
+      }
   h1 {
-      border: 2px red solid;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  }
-  h2 {
+      border: 5px goldenrod inset;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: green
+    }
+   h2 {
       text-align: center;
       border: 2px black solid;
+      background-color: green
     }
    h3 {
           border:2px red solid;
@@ -82,8 +97,8 @@
       h4{
           border: 5px gold inset;
           font-style: italic;
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          background-color: green
       }
   
   .container {

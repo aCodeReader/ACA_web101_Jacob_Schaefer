@@ -16,6 +16,7 @@ body {
   main{  
    text-align: center;
     border: 2px rebeccapurple dashed;
+    margin: 0% 10% 5px;
   }
 
   h1{
