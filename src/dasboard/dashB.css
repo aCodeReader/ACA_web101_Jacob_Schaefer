@@ -1,0 +1,93 @@
+
+body {
+  background: #6E8898;
+}
+.container {
+ 
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 430px; width: 240px;
+  background: #FFF;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+              0 5px 15px 0 rgba(0,0,0,0.08);
+  
+  border-radius: 10px;
+}
+
+/* DISPLAY */
+.display-container {
+
+  top: 0;
+  background: gold;
+  width: 100%;
+  height: 130px;
+  border-radius: 10px 10px 0 0;
+}
+.display, .total {
+  
+  right: 20px;
+  font-family: font;
+  overflow: hidden;
+}
+.display {
+  bottom: 60px;
+  color: grey;
+  font-size: 16px;
+}
+.total {
+  bottom: 10px;
+  color: #FFF;
+  font-size: 40px;
+}
+
+/* BUTTONS */
+.buttons button {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  border:1px black solid;
+  outline: none;
+  font-family: font;
+  background: #FFF;
+}
+.buttons button:active {
+  transform: scale(1.25);
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.3);
+}
+.buttons button:hover {
+  cursor: pointer;
+}
+
+.buttons .main {
+  color: grey;
+}
+.buttons .border {
+  color: gold;
+}
+.buttons .equal {
+  color: #FFF;
+  background: gold;
+}
+  .BigBox {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+header{
+    text-align: center;
+    margin: 1em;
+    border: 2px black solid;
+   
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
