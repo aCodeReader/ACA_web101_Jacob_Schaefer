@@ -1,0 +1,169 @@
+
+body {
+  background:url(https://images.unsplash.com/photo-1551357176-8c0c1280cf83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60;)
+}
+.container {
+ 
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 430px; width: 240px;
+  background: #FFF;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+              0 5px 15px 0 rgba(0,0,0,0.08);
+  
+  border-radius: 10px;
+}
+
+/* DISPLAY */
+.display-container {
+
+  top: 0;
+  background: black;
+  width: 100%;
+  height: 130px;
+  border:  #be1 1px solid;
+}
+.display, .total {
+  
+  right: 20px;
+  font-family: font;
+  overflow: hidden;
+}
+.display {
+  bottom: 60px;
+  color: #be1;
+  font-size: 16px;
+}
+.total {
+  bottom: 10px;
+  color: #be1;
+  font-size: 40px;
+}
+
+/* BUTTONS */
+.buttons button {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  border:1px  #be1 solid;
+  outline: none;
+  font-family: font;
+  background:black;
+}
+.buttons button:active {
+  transform: scale(1.25);
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.3);
+}
+.buttons button:hover {
+  cursor: pointer;
+}
+
+.buttons .main {
+  color:  #be1 ;
+}
+.buttons .border {
+  color:  #be1;
+}
+.buttons .equal {
+  color:  #be1;
+  background: black;
+}
+/* my box */
+  .BigBox {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+header{
+    text-align: center;
+    margin: 1em;
+    border: 2px black solid;
+    
+    border: 2px #be1 inset;
+    color:  #be1;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1464178634217-fdda7ccaf33d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)
+  }
+
+   
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+/* Calander Style */
+.Calander{
+  background-color:black;
+  margin: auto;
+  border: 2px solid #be1;
+ 
+}
+table td {
+  color:  #be1;
+  border: 1px solid  #be1;
+  text-align: center;
+
+}
+/* To Do List */
+ul {
+  color:  #be1;
+  border: 1px solid #be1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 1px 1px 1px blue;
+  padding: 1em;
+  justify-content: center;
+  
+  
+  
+
+}
+select{
+  color: #be1;
+}
+label{
+  color: #be1
+}
+/* Clock */
+#container{
+  width:100%;
+}
+ 
+#myClock{
+  /*width:50%;*/
+  margin:auto;
+  text-align:center;
+  color :#be1;
+  text-shadow: 1px 1px 1px blue;
+  font-size:100px;
+  
+}
+@media(max-width: 545px){
+  .box{
+    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr ;
+   
+  }
+}
+ @media(max-width: 850px){
+   body{
+     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Aasgaardreien_peter_nicolai_arbo_mindre.jpg/650px-Aasgaardreien_peter_nicolai_arbo_mindre.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100%;
+     background-position: center;
+   }
+  
+
+  
+    }
+ }

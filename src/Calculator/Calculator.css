@@ -1,0 +1,19 @@
+.Calc{
+ border: 2px solid black; 
+    height: 800px
+}
+
+.buttons  {
+display: grid;
+grid-template-columns: 20% 20% 20% 20%;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+padding: 2em;
+/* border: 2px solid seagreen; */
+height: 500px ;
+
+}
+.Calc-display{
+    border: 2px solid black;
+    height: 100px;
+    padding-left: 2em;
+    padding-top: 4em;}
