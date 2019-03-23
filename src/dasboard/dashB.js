@@ -6,6 +6,7 @@ var operators = ['+', '-', '*', '/'];
 var ans = 0;
 
 $(document).ready(function() {
+    console.log("hello");
   function clearDisplay() {
     $('.display').text('');
     $('.total').text(0);

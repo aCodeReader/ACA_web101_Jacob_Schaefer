@@ -1,0 +1,115 @@
+body{
+    background-color: #eee;
+    font-size : 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .bg{
+    background-image: url("https://images.unsplash.com/photo-1430933964450-0aefb85717c8?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:-1;
+    -webkit-filter: blur(10px) opacity(70%);
+  }
+  .calander{
+    z-index:100;
+    width: 300px;
+    background-color: #fff;
+    margin: 100px auto;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+    border-radius: 2px;
+    overflow:hidden;}
+    
+    .drop-down {
+      width: 50%;
+      float: left;
+      text-align: center;
+      border : none;
+      padding: 3% 10%;
+      -webkit-appearance: none;
+      font-size : 14px;
+      display: inline;
+      cursor: pointer;
+    } 
+    .drop-down:hover{
+        background-color: #f5f5f5;
+      }
+      .drop-down:focus{
+        outline: none;
+        background-color: #eee;
+      }
+      option{
+        text-align: center;
+      }
+      .drop-down:first-child{
+        border-right: 1px solid #dedede;
+      }
+    
+    table{
+      width: 100%;
+      float: left;
+      text-align: center;
+      vertical-align: middle;}
+      
+      td{
+        width: 14.286%;
+      }
+      
+        .dates td{
+          padding: 0px 0;
+          color: #555;
+        }
+
+          .dates span{
+              height: 20px;
+              width: 30px;
+              padding : 5px 0px;
+              border-radius: 50%;
+              display: inline-block;
+              vertical-align: middle;
+            }
+         /* .dates:hover{}*/
+           span {
+              cursor: pointer;
+              background-color: #e5e5e5;
+            }
+          
+          .dates .today{}
+            span{
+              background-color: #F28E3B;
+              color: #fff;
+            }
+        
+        
+      
+    
+    .weeks{
+        background-color: #eaeaea;
+        padding:5px 5px 5px 5px;
+        float: left;
+        border-bottom: 1px solid #ddd;
+      }
+    .month{
+      padding: 0px 10px;
+      float: left;
+      width: calc(100% - 20px);
+      background-color: #fff;
+    }
+    label{
+        background-color: #fff;
+        float: left;
+        width: calc(100% - 30px);
+        font-weight: 600;
+        display: block;
+        font-size:11px;
+        padding: 10px 15px;
+        border-top : 1px solid #ddd;}
+      .label:hover{
+        background-color: #efefef;
+        cursor: pointer;
+      }
+      
+  

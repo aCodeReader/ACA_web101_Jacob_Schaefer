@@ -11,11 +11,143 @@
  <div class="BigBox">
     <header>
         <h1>Hello, Freind!</h1>
-        <h3>6:45 PM</h3>
+        
+        <h5>"Its like a finger pointing to the moon, Do not focus on the finger, or you will miss all that heavenly glory." <br> -Bruce Lee</h5>
     </header>
     <div class="box">
-        <div>To Do</div>
-        <div>Calender</div>
+        <div>
+            <ul>
+                <H1>To do List</H1>
+                <li>Eat <select name="ProgressTracker" class="drop-down1">
+                    <option value="Complete">Complete</option>
+                    <option value="notStarted">notStarted</option>
+                    <option value="InProgress">InProgress</option>
+                    <option value="PriorityItem!!">PriorityItem</option>
+                </select> 
+            </li>
+                <li>Sleep  <select name="ProgressTracker" class="drop-down1">
+                        <option value="Complete">Complete</option>
+                        <option value="notStarted">notStarted</option>
+                        <option value="InProgress">InProgress</option>
+                        <option value="PriorityItem!!">PriorityItem</option>
+                    </select>
+                </li>
+                <li>Code  <select name="ProgressTracker" class="drop-down1">
+                        <option value="Complete">Complete</option>
+                        <option value="notStarted">notStarted</option>
+                        <option value="InProgress">InProgress</option>
+                        <option value="PriorityItem!!">PriorityItem</option>
+                    </select>
+                </li>
+                <li>Repeat <select name="ProgressTracker" class="drop-down1">
+                        <option value="Complete">Complete</option>
+                        <option value="notStarted">notStarted</option>
+                        <option value="InProgress">InProgress</option>
+                        <option value="PriorityItem!!">PriorityItem</option>
+                    </select>
+                </li>
+               
+               
+            </ul>
+        </div>
+    
+    
+        <div class="Calander">
+            <select name="Month" class="drop-down">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="March" selected>March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="Aug">Aug</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <select name="Year" class="drop-down">
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019" selected>2019</option>
+            </select>
+                <div class="Weeks">
+                    <table>
+                     <th>
+                        <td>M</td>
+                        <td>T</td>
+                        <td>W</td>
+                        <td>T</td>
+                        <td>F</td>
+                        <td>S</td>
+                        <td>S</td>
+
+                     </th>
+                    </table>
+                </div>
+            <label for="March-2019">March</label>
+            <div class="Month">
+                <table id="March-2019" class="Dates">
+                        <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><span>1</span></td>
+                                <td><span>2</span></td>
+                                <td><span>3</span></td>
+                            </tr>
+                            <tr>
+                              <td><span>4</span></td>
+                                <td><span>5</span></td>
+                                <td><span>6</span></td>
+                                <td><span>7</span></td>
+                                <td><span>8</span></td>
+                                <td><span>9</span></td>
+                                <td><span>10</span></td>
+                            </tr>
+                            <tr>
+                              <td><span>11</span></td>
+                              <td><span>12</span></td>
+                              <td><span>13</span></td>
+                              <td><span>14</span></td>
+                              <td><span>15</span></td>
+                              <td><span>16</span></td>
+                              <td><span>17</span></td>
+                            </tr>
+                            <tr>
+                              <td><span>18</span></td>
+                              <td><span>19</span></td>
+                              <td><span>20</span></td>
+                              <td><span>21</span></td>
+                              <td><span>22</span></td>
+                              <td><span>23</span></td>
+                              <td class="today"><span>24</span></td>
+                            </tr>
+                            <tr>
+                              <td><span>25</span></td>
+                              <td><span>26</span></td>
+                              <td><span>27</span></td>
+                              <td><span>28</span></td>
+                              <td><span>29</span></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                </table>
+            </div>
+            <label for="March-2019"></label>
+        </div>
+
+
+
+     
         <div class="container">
                      <div class="display-container">
                           <div class="display"></div>
@@ -44,14 +176,23 @@
                           
                           <button class="main num" data-val=".">.</button>
                           <button class="main num" data-val="0">0</button>
-                          <button class="main" data-val="del"><</button>
+                          <button class="main" data-val="del"></button>
                           <button class="border equal" data-val="=">=</button>
                         </div>
                       </div>
             </div>
         </div>
- 
+    </div>
+    <div id="container">
+        <p id="myClock">
+          <span id="hour"></span>
+          <span id="minutes"></span>
+          <span id="second"></span>
+      </p>
+    </div>
    </div>
-   <script src="dashB.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script type="text/javascript" src="./dashB.js"></script>
+<script type="text/javascript" src="./clock.js"></script>
 </body>
 </html>

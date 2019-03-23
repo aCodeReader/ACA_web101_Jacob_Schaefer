@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="pop.css">
+    <title>pop</title>
+</head>
+<body>
+        <div ng-app="popUp" ng-controller="mainCtrl">
+
+                <button id="pop-up2-btn2" ng-click="openPopUp()">Open Pop Up</button>
+              
+                <div id="pop-up2">
+                  <div class="content-wrap">
+                    <div class="icon-close" ng-click="closePopUp()">x</div>
+                    hi pop
+                </div>
+                <div id="pop-up2-bg"></div>
+              
+              </div>
+              </div>
+              <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+            <script  type="text/javascript" src="pop.js"></script>
+</body>
+</html>
