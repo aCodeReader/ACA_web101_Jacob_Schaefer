@@ -3,8 +3,8 @@ var popUp = angular.module('popUp', [])
 
   $scope.openPopUp = function() {
 
-    var buttonElement = document.querySelector('#pop-up-btn');
-    var popUpElement = document.querySelector('#pop-up');
+    var buttonElement = document.querySelector('#pop-up-btn2');
+    var popUpElement = document.querySelector('#pop-up2');
 
     popUpElement.style.width = buttonElement.offsetWidth + 'px';
     popUpElement.style.height = buttonElement.offsetHeight + 'px';
@@ -17,7 +17,7 @@ var popUp = angular.module('popUp', [])
     $timeout(function() {
       angular.element(buttonElement).toggleClass('pop-up-open');
       angular.element(popUpElement).toggleClass('pop-up-open');
-      angular.element(document.querySelector('#pop-up-bg')).toggleClass('pop-up-open');
+      angular.element(document.querySelector('#pop-up-bg2')).toggleClass('pop-up-open');
     });
 
     $timeout(function() {
@@ -26,8 +26,8 @@ var popUp = angular.module('popUp', [])
   }
 
   $scope.closePopUp = function() {
-    var buttonElement = document.querySelector('#pop-up-btn');
-    var popUpElement = document.querySelector('#pop-up');
+    var buttonElement = document.querySelector('#pop-up-btn2');
+    var popUpElement = document.querySelector('#pop-up2');
 
     popUpElement.querySelector('.content-wrap').style.opacity = 0;
 
@@ -36,7 +36,7 @@ var popUp = angular.module('popUp', [])
 
     angular.element(buttonElement).toggleClass('pop-up-open');
     angular.element(popUpElement).toggleClass('pop-up-open');
-    angular.element(document.querySelector('#pop-up-bg')).toggleClass('pop-up-open');
+    angular.element(document.querySelector('#pop-up-bg2')).toggleClass('pop-up-open');
 
     $timeout(function() {
       buttonElement.style.visibility = "visible";
