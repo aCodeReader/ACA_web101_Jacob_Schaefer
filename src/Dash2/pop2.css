@@ -26,7 +26,7 @@ body {
   
   /*---------------------------------------------------------*/
   
-  #pop-up {
+  #pop-up2 {
     visibility: hidden;
     position: absolute;
     z-index: 49;
@@ -42,13 +42,13 @@ body {
     transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
   }
   
-  #pop-up .content-wrap {
+  #pop-up2.content-wrap {
     opacity: 0;
     -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
   }
   
-  #pop-up-bg:before {
+  #pop-up-bg2:before {
     position: fixed;
     top: 0;
     left: 0;
@@ -63,7 +63,7 @@ body {
     pointer-events: none;
   }
   
-  #pop-up.pop-up-open {
+  #pop-up2.pop-up-open {
     visibility: visible;
     z-index: 100;
     top: 50% !important;
@@ -75,11 +75,11 @@ body {
     transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
   }
   
-  #pop-up-bg.pop-up-open::before {
+  #pop-up-bg2 .pop-up-open::before {
     opacity: 1;
   }
   
-  #pop-up .icon-close {
+  #pop-up2 .icon-close {
     color: rgba(17, 21, 24, 0.81);
     text-shadow: none;
     float: right;
@@ -89,32 +89,32 @@ body {
     line-height: 10px;
   }
   
-  #pop-up .icon-close:hover {
+  #pop-up2 .icon-close:hover {
     color: #fff;
   }
   
-  #pop-up .date {
+  #pop-up2 .date {
     margin-bottom: 10px;
     font-size: 18px;
   }
   
-  #pop-up .day-forecast .temp {
+  #pop-up2 .day-forecast .temp {
     float: left;
     width: 25%;
     text-align: center;
   }
   
-  #pop-up .day-forecast .temp .title {
+  #pop-up2 .day-forecast .temp .title {
     font-weight: 700;
     margin: 10px 0;
   }
   
-  #pop-up .icon,
-  #pop-up .description {
+  #pop-up2 .icon,
+  #pop-up2 .description {
     float: left;
   }
   
-  #pop-up .description {
+  #pop-up2 .description {
     line-height: 45px;
     color: rgba(255, 255, 255, 0.66);
   }

@@ -1,0 +1,49 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+#popup {
+position: relative;
+border: 2px solid black;
+width: 150px;
+height: 60px; 
+line-height: 60px;
+text-align: center;
+font-size: 18px; 
+margin: auto;
+top: 250px;
+cursor: pointer;
+transition: .3s ease-out;
+}
+#popup:hover {
+border: 2px solid #4cff58;
+}
+#popup_window {
+position: relative;
+background: #eaeaea;
+padding: 5px;
+  /* width: 500px; */
+line-height: 140%;
+left: 50%;
+margin-left: -75px; 
+} 
+#popup_window::after {
+content: '';
+/* width: 20px;
+  height: 20px; */
+background: #eaeaea;
+position: relative;
+display: block;
+  /* bottom: -20px; */
+transform: rotate(45deg);
+left: 50%;
+  /* margin-left: -20px; */
+}
+.calander{
+    background-color:black;
+    margin: auto;
+    border: 2px solid blue;
+  
+   
+  }
+  table td {
+    color:  #be1;
+    border: 1px solid  #be1;
+    text-align: center;}
