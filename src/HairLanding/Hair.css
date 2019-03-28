@@ -1,0 +1,335 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.box{
+    display: flex;
+    flex-direction: column;
+  /* border: solid red 4px; */
+    height: 100%;
+}
+
+
+.main{
+    background-image: url(https://s3.amazonaws.com/churchplantmedia-cms/red_mesa_fellowship_st_george_ut/blondie___the_good__the_bad_and_the_ugly_by_az_i_am-dbdqyqn.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-start; 
+    background-size: 100% 100%;
+    height: 300px;}
+    /* text-align: left;
+    left: 50%;
+    margin-left: -480px;
+    margin-top: -171px;
+    padding: 0 0 0 470px;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    width: 490px;
+} */
+
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+  display: none
+}
+a{
+    color: black;
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    /* margin-right: 2em; */
+} 
+.lnk{
+    margin-right: 1em;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     
+}
+h2{
+    background-color: azure
+
+}
+h3{
+    background-color: #333;
+    color: white;
+
+}
+button{
+    background-color: #1aa;
+    height: 50px;
+    width: 100px;
+    font-style: bold;
+    font-size: 15px;
+    color: white;
+
+}
+.main{
+    display: flex;
+    flex-direction: column; }
+    
+
+.examp{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px black solid; */
+} 
+.a1{
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 20px;
+  } 
+.a1 img{ 
+    height: 60%;
+    width: 50%;
+  }
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.hamburger {
+  display: block;
+  width: 60px;
+  height: 45px;
+  position: relative;
+  margin: 10px auto;
+  transform: rotate(0deg);
+  transition: all 300ms ease-in-out;
+  background-color: #1aa;
+  border-radius: 10%;
+}
+.hamburger span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 40%;
+  background: white;
+  border-radius: 9px;
+  opacity: 1;
+  transform: rotate(0deg);
+  left: 0;
+  transition: all .25s ease-out;
+  margin-left: 30%;
+  margin-top: 20%
+}
+
+.hamburger span:nth-child(1) {
+  top: 0px;
+}
+
+.hamburger span:nth-child(2) {
+  top: 10px;
+}
+
+.hamburger span:nth-child(3) {
+  top: 20px;
+}
+.hamburger:hover span:nth-child(1) {
+  background:white;
+  top: 10px;
+  transform: rotate(135deg);
+}
+
+.hamburger:hover span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.hamburger:hover span:nth-child(3) {
+  background:white;
+  top: 10px;
+  transform: rotate(-135deg);
+}
+
+/* footer style */
+body {
+  font-family: 'Lato', sans-serif;
+  /* color:slategray; */
+  /* background: #322f30; */
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+p > a:hover{
+  color: #d9d9d9;
+  text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin:  1% 0 1% 0;
+}
+._12 {
+  font-size: 1.2em;
+}
+._14 {
+  font-size: 1.4em;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  padding:0;
+  list-style: none;
+}
+.footer-social-icons {
+  width: 350px;
+  /* display:block; */
+  margin: 5 auto;
+}
+.footer-social-icons {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+ul.social-icons {
+  margin-top: 2px;
+}
+.social-icons li {
+  /* vertical-align: top; */
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+.fa-twitter {
+  padding:10px 12px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+.fa-rss {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-rss:hover {
+  background-color: #eb8231;
+}
+.fa-youtube {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+.fa-linkedin {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
+.fa-google-plus {
+  padding:10px 9px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-google-plus:hover {
+  background-color: #e25714;
+}
+.aca{
+  height: 100px;
+}
+
+@media(min-width: 640px){
+    .examp{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+    /* justify-content:flex-end; */
+    height: 400px
+    }
+    .a1 img{
+      height:200px;
+      width: 180px;
+      
+    }
+    .examp{
+      display: flex;
+      flex-direction: row;
+      /* border: 2px black solid; */
+      margin-bottom: 5em;
+      /* margin-right: 4em */
+      justify-content: space-around
+  } 
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 150px
+}
+ul{
+  display: flex;
+  list-style-type:none;
+
+
+}
+.hamburger{
+  display: none
+}
+} 
