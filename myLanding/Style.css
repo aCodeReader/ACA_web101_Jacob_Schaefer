@@ -6,12 +6,14 @@ nav{
     padding: 5%
 }
 a{
-    border: red 2px solid;
+    border: red 2px inset;
     color:white;
     background-color: black;
     font-size: 25px;
     /* margin: 5% */
     text-decoration: none;
+    border-radius: 10%;
+    padding: 10px
 }
 main{
     display:flex;
@@ -35,11 +37,11 @@ button{
     align-items: center;
     color: lightskyblue;
     background-color: #666;
-    border-radius: 100%;
+    border-radius: 30%;
     width: 100px;
     height: 100px;
     margin: 5%;
-    padding: 5%;
+    font-size: 110%;
 }
 .pic{
     border-radius: 50%;
@@ -52,10 +54,10 @@ button{
     margin-top: 5%
 }
 .vid{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black
 }
 .vid1{
     display: flex;
@@ -75,4 +77,11 @@ form{
     flex-direction: column;
     justify-content: center;
     margin: 20px
+}
+@media(min-width: 850px){
+    main{
+        background-image: url(https://images.unsplash.com/photo-1542339867-babe283a18ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1169&q=80);
+        background-size: 100%;
+    }
+
 }
