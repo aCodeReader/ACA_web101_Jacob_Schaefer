@@ -57,24 +57,27 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-     
-}
+  }
 h2{
-    background-color: azure
+    background-color: whitesmoke;
+    margin-left: 5px;
 
 }
 h3{
     background-color: #333;
     color: white;
+    margin-left: 5px;
+  }
 
-}
 button{
     background-color: #1aa;
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 120px;
     font-style: bold;
     font-size: 15px;
     color: white;
+    margin-left: 5px;
+    
 
 }
 .main{
@@ -85,10 +88,11 @@ button{
 .examp{
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
     /* border: 2px black solid; */
 } 
 .a1{
-    border: 2px black solid;
+    /* border: 2px black solid; */
     display: flex;
     flex-direction: column-reverse;
     font-size: 20px;
@@ -96,11 +100,16 @@ button{
 .a1 img{ 
     height: 60%;
     width: 50%;
+    border: 2px black solid;
+    border-radius: 5%
   }
 footer{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    background-color: black
 }
 
 .hamburger {
@@ -172,14 +181,14 @@ p > a:hover{
   color: #d9d9d9;
   text-decoration:  underline;
 }
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   margin:  1% 0 1% 0;
-}
+} */
 ._12 {
   font-size: 1.2em;
 }
@@ -189,7 +198,7 @@ h6 {
 ul {
   display: flex;
   flex-direction: row;
-  padding:0;
+  
   list-style: none;
 }
 .footer-social-icons {
@@ -313,7 +322,8 @@ ul.social-icons {
       /* border: 2px black solid; */
       margin-bottom: 5em;
       /* margin-right: 4em */
-      justify-content: space-around
+      justify-content: space-around;
+      margin-top: 5%;
   } 
 .navbar{
   display: flex;
@@ -331,5 +341,9 @@ ul{
 }
 .hamburger{
   display: none
+}
+footer{
+  justify-content: space-between;
+  flex-direction: row;
 }
 } 
