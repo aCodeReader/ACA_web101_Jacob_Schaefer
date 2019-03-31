@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #599;
+    /* border: 2px red solid; */
+    height: 15%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Ziz{
+    text-decoration: none;
+    margin-right: 200px;
+    /* border: 2px red solid; */
+    padding: 5%;
+    background-color: #224;
+    color: white;
+    font-size: 60px
+}
+.nav{
+    display: flex;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    background-color: #224;
+    padding: 1%;
+    border-radius: 10%;
+    margin-bottom: 2%;
+}
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px #599 solid;
+    margin: 2%
+}
+.hstyle{
+    display: flex;
+    flex-direction: row;
+    
+
+}
