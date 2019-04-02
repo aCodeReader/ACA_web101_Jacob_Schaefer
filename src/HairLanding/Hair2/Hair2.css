@@ -34,9 +34,16 @@ header {
     border: 2px #599 solid;
     margin: 2%
 }
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .hstyle{
     display: flex;
     flex-direction: row;
-    
-
 }
+    .feature{
+        background-color: #599
+
+    }
+
