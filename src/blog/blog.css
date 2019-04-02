@@ -3,19 +3,19 @@ body {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/700px-Tsunami_by_hokusai_19th_century.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
   }
   header {
-    border: 2px red solid;
+    /* border: 2px red solid; */
     text-align: center;
     font-size: 50px;
     font-style: times;
   }
  
   main{  
-   text-align: center;
-    border: 2px rebeccapurple dashed;
+  text-align: center;
+    /* border: 2px rebeccapurple dashed; */
     margin: 0% 10% 5px;
   }
 
@@ -24,11 +24,11 @@ body {
 
   }
   .border1{
-      border: 2px green solid;
+      /* border: 2px green solid; */
 
   }
   .border2{
-      border: 2px orange solid;
+      /* border: 2px orange solid; */
 
   }
   img {
