@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://images.freeimages.com/images/large-previews/7d5/united-colours-of-koi-1408532.jpg)
+}
+header{
+    position: fixed;
+    /* display: flex; */
+}
+header a{
+margin: 5px;
+margin-left: 0px;
+text-decoration: none;
+background-color: goldenrod;
+color:black;
+border-radius: 10px;
+padding:5px;
+display: flex;
+justify-content: center
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center
+}
+ol{
+    margin: 50px
+}
+.Products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    margin-left: 70px
+}
+.topimg{
+    width: 350px
+}
+.mediB{
+    height: 300px
+}
+.NFT{
+    height: 300px;
+    width: 300px;
+}
+.DWC{
+    height: 300px;
+    width: 310px
+}
+
+li{
+    line-height: 2em;
+    /* display: flex;
+    justify-content: center; */
+}
+
+
+p{
+    line-height: 2em;
+    color: whitesmoke;
+    background-color: #225;
+}
+h1, h2, h3{
+    background-color: #267;
+    color: whitesmoke;
+    padding: 10px;
+}
+h1, h2{
+    border-bottom: 2px goldenrod inset
+}
+h5{
+    display: flex;
+    justify-content: center;
+    background-color:#f51;
+    font-size: 90%
+}
