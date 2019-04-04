@@ -74,7 +74,9 @@ footer{
     margin: 2em;
     align-items: center;
 }
-
+i{
+  font-size: 40px;
+}
 .my-skill .section-title .title-name-gray {
     left: 110px;
   }

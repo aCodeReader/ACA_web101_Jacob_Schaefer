@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column
+}
+.greet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+#currentTime {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: 600;
+    color: black;
+    margin: auto;
+  }
