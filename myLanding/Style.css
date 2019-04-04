@@ -27,7 +27,7 @@ main{
     margin-top: 10px;
     margin-bottom: 10px;
     align-items: center;
-    background-image: url(/src/img/JJM.jpg);
+    background-image: url(../src/img/JJM.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     }
