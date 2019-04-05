@@ -1,10 +1,43 @@
+body{
+    background-color: black
+}
+header{
+    display: flex;
+    justify-content: space-around
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
+
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Germania One', cursive;
+    border: 2px inset red;
+    padding: 8px;
+    border-radius:10px;
+    font-size: 180% ;
+    margin: 20px
+    
+}
+a:hover{
+    background-color: #557
+
+}
 .form{
     display: flex;
     flex-direction: column;
+    color: whitesmoke;
+    /* border: 2px red solid */
 }
 form{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    align-items: center;
+
 }
 .greet{
     display: flex;
@@ -15,8 +48,45 @@ form{
 #currentTime {
     font-size: 25px;
     text-align: center;
-    font-family: "Oswald";
+    /* font-family: "Oswald"; */
     font-weight: 600;
-    color: black;
+    color: whitesmoke;
     margin: auto;
-  }
+}
+
+h1, h2, h3{
+    color: whitesmoke;
+    font-family: 'Germania One', cursive;
+    text-transform: capitalize;
+    border: red 2px inset;
+    padding: 1em;
+    border-radius: 20px;
+    
+    
+}
+header h1{
+    padding: 10px;
+
+}
+.btn{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:12px;
+}
+h3{
+    font-size: 120%
+}
+i{
+    color: crimson;
+    margin-right: 12px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px
+}
+
+/* btn */
