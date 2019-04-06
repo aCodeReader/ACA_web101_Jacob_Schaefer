@@ -72,9 +72,17 @@ nav a:hover{
     width: auto;
     margin: 10%;
   }
-  
+  i{
+    color: #267;
+   border: goldenrod 2px inset;
+   padding: 2px;
+   background-color:whitesmoke;
+  }
+  .icon{
+    font-size: 36px
+  }
   a {
-    font-family: 'Germania One', cursive;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
@@ -174,3 +182,51 @@ nav a:hover{
   left: 0.35rem;
   }
   
+
+  /* hamburger */
+
+.br {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+  
+}
+a{
+  text-decoration: none; 
+  line-height: 2em;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
