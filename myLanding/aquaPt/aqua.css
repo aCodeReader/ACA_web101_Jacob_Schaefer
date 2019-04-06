@@ -34,8 +34,11 @@ ol{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 80px;
     margin-left: 70px
+}
+.Enviroment{
+    margin: 80px
 }
 .topimg{
     width: 350px
@@ -63,6 +66,7 @@ p{
     line-height: 2em;
     color: whitesmoke;
     background-color: #225;
+    font-size: 20px
 }
 h1, h2, h3{
     background-color: #267;
@@ -76,5 +80,7 @@ h5{
     display: flex;
     justify-content: center;
     background-color:#f51;
-    font-size: 90%
+    font-size: 90%;
+    padding: 1%;
+    text-transform: capitalize
 }
