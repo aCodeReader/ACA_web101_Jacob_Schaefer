@@ -35,10 +35,17 @@ ol{
     justify-content: space-between;
     align-items: center;
     margin: 80px;
-    margin-left: 70px
+    margin-left: 100px;
+    
+}
+.feed{
+    margin: 90px;
 }
 .Enviroment{
-    margin: 80px
+    margin: 90px
+}
+.bio{
+    margin: 90px
 }
 .topimg{
     width: 350px
@@ -82,5 +89,6 @@ h5{
     background-color:#f51;
     font-size: 90%;
     padding: 1%;
-    text-transform: capitalize
+    text-transform: capitalize;
+    font-size: 15px
 }
