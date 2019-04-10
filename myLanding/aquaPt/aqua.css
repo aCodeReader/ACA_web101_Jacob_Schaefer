@@ -20,12 +20,12 @@ justify-content: center
 main{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 100px;
     justify-content: center;
     align-items: center
 }
 ol{
-    margin: 50px
+    margin: 90px
 }
 .Products{
     display: grid;
@@ -41,8 +41,9 @@ ol{
 .feed{
     margin: 90px;
 }
+
 .Enviroment{
-    margin: 90px
+    margin: 100px
 }
 .bio{
     margin: 90px
