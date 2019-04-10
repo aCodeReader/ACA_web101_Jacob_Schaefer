@@ -20,16 +20,43 @@ nav a{
     background-color: whitesmoke;
     color:#267
 }
+.nv{
+  animation: lightSpeedIn 1s ease-in;
+}
+@keyframes lightSpeedIn {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .name{
     font-size: 50%;
     
 }
-main h1{
-        animation: shrinkjump 1s ease-in-out;
+.ni{
+        animation: jump 5s ease-in-out infinite;
         transform-origin: bottom center;
     }
     
-    @keyframes shrinkjump {
+    @keyframes jump {
         10%, 35% {
             transform: scale(2, .2) translate(0, 0);
         }
