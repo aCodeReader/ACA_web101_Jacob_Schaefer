@@ -1,0 +1,12 @@
+.body{
+background-color: black
+}
+.gr{
+    float: left;
+    width: 33.333333333%;
+    height: 33.333333333%;
+    cursor: pointer;
+    border-width: 5px;
+    border-color: #fff;
+    will-change: border-color;
+}

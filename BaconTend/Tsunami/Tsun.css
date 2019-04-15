@@ -47,11 +47,11 @@ nav{
   
   .mySlides{
     height: 200px;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2em;
+    /* margin: .5em; */
 
   }
   header{
@@ -60,12 +60,14 @@ nav{
     flex-direction: row;
   
   }
-  .main{
+  .main img{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 5em;
   }
+
   .box{
     display: flex;
     flex-direction: column;
@@ -86,12 +88,13 @@ nav{
     justify-content: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyguFOXGYR4-zC9EataiX2VuSu__qjK5zmD1PKkTygHx_VkGDWnQ);
     background-repeat: no-repeat;
-   background-size: 100% 100%
+    background-size: 100% 100%
   }
   main button{
-    font-size: 36px;
-    display:inline;
-    position: relative;
-    left:280px
-    
+    font-size: 76px;
+    /* display:flex; */
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin: 60px
   }
