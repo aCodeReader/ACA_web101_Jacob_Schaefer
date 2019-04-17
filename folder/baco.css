@@ -9,8 +9,10 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
 
     
 }
@@ -19,12 +21,14 @@ header img{
     width: 100%;
 
 }
-header h1, h2, h3 {
+header > h1, h2, h3 {
     color: white;
     background: rgba(1, 1, 1, .2);
     padding: 3%;
     line-height: 2em;
     border-radius: 5px;
+  
+    
 }
 .btn{
     background-color: #fa1;
@@ -161,6 +165,7 @@ color:black
     border: 3px solid whitesmoke;
     margin: 2em;
     line-height: 2em;
+    box-shadow: 2px 2px 5px gray;
 }
 .gm{
     display: flex;
@@ -169,6 +174,7 @@ color:black
     border: 3px solid whitesmoke;
     margin: 2em;
     line-height: 2em;
+    box-shadow: 2px 2px 5px gray;
 }
 .sm{
     display: flex;
@@ -177,6 +183,7 @@ color:black
     border: 3px solid whitesmoke;
     margin: 2em;
     line-height: 2em;
+    box-shadow: 2px 2px 5px gray;
 }
 .cm{
     display: flex;
@@ -185,6 +192,7 @@ color:black
     border: 3px solid whitesmoke;
     margin: 2em;
     line-height: 2em;
+    box-shadow: 2px 2px 5px gray;
 }
 .wh img{
     height: 400px;
@@ -229,19 +237,30 @@ color:black
             transform:translatex(20px);
         }
     }
-
+.medcon a img{
+   height: 40px;
+   margin: 1.5em;
+}
 footer{
     color:lightskyblue;
     margin: 2em;
 }
-@media (min-width : 1224px) {
+@media (min-width : 1000px) {
   header img{
-      height: 200px;
-      width: auto;
-      margin: 2em;
+    height: 200px;
+    width: auto;
+    margin: 2em;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start
+    align-items: flex-start;
 
-  }
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+}
     }
