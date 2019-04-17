@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-around;
   background-color: #eee;
-  height: 324px;
+  /* height: 324px; */
   /* height: 200% */
 }
 /* .office {
@@ -41,7 +41,7 @@ h1 {
 }
 .message {
   height: 10%;
-  /* margin-bottom: 1.5em; */
+  margin-bottom: 1.5em;
 }
 
 .body {
@@ -52,6 +52,7 @@ h1 {
   width:50px;
   color: white;
   background-color: #555;
+  margin-bottom: 2em;
   
 }
 .contact h3{
@@ -64,4 +65,14 @@ h1 {
 h3{
   font-size: 80%; 
   color: gray;
+}
+@media (max-width: 500px) {
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em
+
+  }
 }
